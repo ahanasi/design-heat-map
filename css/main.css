@@ -1,0 +1,62 @@
+/*
+  ========================================
+  Grid
+  ========================================
+*/
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/*
+  ========================================
+  Custom Styles
+  ========================================
+*/
+
+.dark {
+    background-color: gray;
+}
+
+.darker {
+    background-color: rgb(75, 75, 75);
+}
+
+.darkest {
+    background-color: rgb(53, 53, 53);
+}
+
+.light {
+    background-color: rgb(150, 150, 150);
+}
+
+.lighter {
+    background-color: rgb(181, 181, 181);
+}
+
+.global-header {
+    height: 103.42px;
+}
+
+.subnav-header {
+    height: 65.047px;
+}
+
+.headline-content {
+    display: grid;
+    grid-template-columns: 700.656px 386.656px;
+    margin: 0 108px;
+}
+
+.first-article {
+    display: grid;
+    grid-template-rows: 291.531px auto;
+    height: 512.719px;
+    margin-top: 2.25em;
+    margin-bottom: 3em;
+    padding: 0 16px;
+}
