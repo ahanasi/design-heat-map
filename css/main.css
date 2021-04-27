@@ -65,7 +65,7 @@ body {
 
 .articles-wrapper > article:first-of-type {
     display: grid;
-    grid-template-rows: 291.531px auto auto;
+    grid-template-rows: 291.531px auto;
     height: 512.719px;
     margin-top: 2.25em;
 }
