@@ -18,6 +18,10 @@
   ========================================
 */
 
+body {
+    font-size: calc(.35842vw + .95296em);
+}
+
 .dark {
     background-color: gray;
 }
@@ -52,11 +56,20 @@
     margin: 0 108px;
 }
 
-.first-article {
+.articles-wrapper {
     display: grid;
-    grid-template-rows: 291.531px auto;
+    grid-template-rows: max-content;
+    height: 1095.910px;
+    padding: 0 16px;
+}
+
+.articles-wrapper > article:first-of-type {
+    display: grid;
+    grid-template-rows: 291.531px auto auto;
     height: 512.719px;
     margin-top: 2.25em;
+}
+
+.author-post {
     margin-bottom: 3em;
-    padding: 0 16px;
 }
