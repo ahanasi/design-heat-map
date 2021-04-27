@@ -50,10 +50,13 @@ body {
     height: 65.047px;
 }
 
+main {
+    margin: 0 108px;
+}
+
 .headline-content {
     display: grid;
-    grid-template-columns: 700.656px 386.656px;
-    margin: 0 108px;
+    grid-template-columns: 700.656px auto;
 }
 
 .articles-wrapper {
@@ -72,4 +75,43 @@ body {
 
 .author-post {
     margin-bottom: 3em;
+}
+
+.newsletter {
+    justify-self: right;
+    height: 626.839px;
+    width: 386.656px;
+    margin: 20px 16px 0;
+    padding: 0 1.5em 2em 1.5em;
+}
+
+.cards-wrapper{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 1.5em;
+    height: 624.516px;
+    padding: 0 1em;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 563.3px;
+    margin: 1.5em 0;
+    padding: calc(2rem + .5vw);
+    border-radius: 11px;
+}
+
+.card-title {
+    height: 100px;
+}
+
+.card-content {
+    height: 200px;
+}
+
+.card-btn{
+    height: 90px;
+    width: 100%;
 }
